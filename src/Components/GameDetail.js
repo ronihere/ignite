@@ -4,9 +4,6 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import CloseButtonImg from "../assets/SVGs/closeButton";
-// import { clearGameDetails } from '..actions/gameDetailsAction'
-
-
 const GameDetail = () => {
     const { gameDetails, screenshots } = useSelector((state) => state.detail);
     const navigate = useNavigate();
@@ -85,18 +82,15 @@ const Detail = styled(motion.div)`
         margin-bottom: 2rem;
     }
 `
-
 const Stats = styled(motion.div)`
     display: flex;
     align-items: center;
     justify-content: space-between;
 `
-
 const Info = styled(motion.div)`
     text-align: center;
     width: 70%;
 `
-
 const Platforms = styled(motion.div)`
     display: flex;
     justify-content: space-evenly;
