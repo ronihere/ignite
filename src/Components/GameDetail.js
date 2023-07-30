@@ -104,7 +104,6 @@ const Platforms = styled(motion.div)`
         margin-left: 3rem;
     }
 `
-
 const Media = styled(motion.div)`
     margin-top: 5rem;
     img{
@@ -112,11 +111,9 @@ const Media = styled(motion.div)`
         object-fit: cover;
     }
 `
-
 const Description = styled(motion.div)`
     margin: 5rem 0rem;
 `
-
 const CloseButton = styled(motion.div)`
     position: absolute;
     top: -0.1rem;
